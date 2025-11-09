@@ -7,28 +7,38 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="screen.cs">
   </head>
-  <body class="bg-neutral-700">
+  <body class="bg-neutral-800">
 
   
-    <div class="flex justify-center mt-[50px]">
-         <div class="relative w-[650px] max-width[9vw] aspect-[3/1] rounded-2xl bg-[#ED1D24]
-         grid place-items-center border-2 border-black shadow-lg transition duration-300 ease-out hover:-translate-y-1
-         hover-shadow-2xl after:content-[''] after:absolute after:inset-x-6 after:-bottom-6 after:h-8
-         after:rounded-full after:bg-black/25 after:blur-md after:opacity-60">
-            <h1 class="font-[var(--font-display)] uppercase tracking-wide text-white text-[9.375rem]">
-              MARVEL</h1>
-        </div>
+    <header class="flex justify-center mt-[50px]">
+      <div class="relative w-[650px] max-width[9vw] aspect-[3/1] rounded-2xl bg-[#ED1D24]
+        grid place-items-center border-4 border-black shadow-lg transition duration-300 ease-out hover:-translate-y-1
+        hover-shadow-2xl after:content-[''] after:absolute after:inset-x-6 after:-bottom-6 after:h-8
+        after:rounded-full after:bg-black/25 after:blur-md after:opacity-60">
+        <h1 class="font-[var(--font-display)] uppercase tracking-wide text-white text-[9.375rem] leading-none">
+          MARVEL
+        </h1>
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-white text-[2rem] -mt-[20px]">
+          Cinematic Universe
+        </p>
+      </div>
+    </header>
+
+  <!--Phase 1-->
+<div class="w-full bg-[linear-gradient(45deg,#A1CFFC,#ED1D24,#737D77,#1E3A8A,#D4AF37)] pb-[100px]">
+  
+    <div class="flex justify-center mt-[90px]">
+      <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[10px] mt-[50px]"> Phase 1</p>
     </div>
 
-  <main class="flex flex-row flex-wrap justify-start mt-100px ml-[160px]">
-
+  <div class="flex flex-row justify-start ml-[40px]">
     <!-- Iron Man -->
-     
-    <div class=" flex justify-start mt-[100px] ml-[100px]">
-      <article class="relative w-[220px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#ED1D24] via-[#E6BE60] to-[#9E1C21] grid place-items-center border-2 border-black shadow-lg
+     <div class=" flex justify-start mt-[50px] ml-[90px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl  bg-gradient-to-br from-[#ED1D24] via-[#E6BE60] to-[#9E1C21] grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
-        <p class="font-[var(--font-display)] uppercase tracking-wide text-white text-[1.5rem] relative w-[150px] max-width[10vw] aspect-[3/1]
-        rounded-2xl  grid place-items-center bg-black">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px]">
           Iron Man
         </p>
         <img src="Images/Iron_Man_(2008_film)_poster.jpg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
@@ -36,16 +46,15 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2008
         </p>
-        <div class="pointer-events-none absolute top-1/2 left-full w-24 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
     </div>
-
     <!-- Incredible Hulk-->
-    <div class=" flex justify-center mt-[100px] ml-[90px]">
-        <article class="relative w-[220px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#2AD45C] to-[#AB0EEB] grid place-items-center border-2 border-black shadow-lg
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl  bg-gradient-to-br from-[#2AD45C] to-[#AB0EEB] grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
         <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
-        text-white bg-black rounded-2xl p-[5px]">
+        text-white bg-black rounded-2xl p-[5px] text-[10px]">
           The Incredible Hulk
         </p>
         <img src="Images/incredible_hulk.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75">
@@ -53,16 +62,15 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2008
         </p>
-        <div class="pointer-events-none absolute top-1/2 left-full w-24 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
     </div>
-
     <!-- Iron Man 2-->
-    <div class=" flex justify-start mt-[100px] ml-[90px]">
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
       <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl  bg-gradient-to-br from-[#ED1D24] via-[#E6BE60] to-[#9E1C21] grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
-        <p class="font-[var(--font-display)] uppercase tracking-wide text-white text-[1.5rem] relative w-[150px] max-width[10vw] aspect-[3/1]
-        rounded-2xl  grid place-items-center bg-black p-[5px]">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px]">
           Iron Man 2
         </p>
         <img src="Images/Ironman2.jpg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
@@ -70,12 +78,11 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2010
         </p>
-        <div class="pointer-events-none absolute top-1/2 left-full w-24 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
     </div>
-
     <!-- Thor -->
-    <div class=" flex justify-start mt-[100px] ml-[90px]">
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
       <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#444347] via-[#0518F0] to-[#ED1D24] grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
         <p class="font-[var(--font-display)] uppercase tracking-wide text-white text-[1.5rem] relative w-[100px] max-width[10vw] aspect-[3/1]
@@ -87,16 +94,15 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2011
         </p>
-        <div class="pointer-events-none absolute top-1/2 left-full w-24 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
     </div>
-
     <!-- Captain America: The First Avenger -->
-    <div class=" flex justify-start mt-[100px] ml-[90px]">
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
       <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#1E258F] via-[#fafafa] to-[#ED1D24] grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
         <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
-        text-white bg-black rounded-2xl p-[5px]">
+        text-white bg-black rounded-2xl p-[5px] text-[10px]">
           Captain America: The First Avenger
         </p>
         <img src="Images/CaptainAmerica.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
@@ -104,20 +110,17 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2011
         </p>
-        <div class="pointer-events-none absolute left-1/2 top-full w-[2px] h-24 -translate-x-1/2 bg-black hidden lg:block"></div>
+         <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
     </div>
-
-    <!-- The Start of the Second Row -->
-    <div class="flex flex-row-reverse flex-wrap justify-start mt-100px mr-[100px]">
-      
       <!-- The Avengers -->
-     <div class=" flex justify-start mt-[90px] ml-[90px]">
+     <div class=" flex justify-start mt-[50px] ml-[55px]">
       <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] bg-gradient-to-br from-[#000AD6] via-[#A1C1CF] to-[#1E258F] rounded-3xl 
       grid place-items-center border-2 border-black shadow-lg
       transition duration-300 ease-out hover:-translate-y-1">
         <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
-        text-white bg-black rounded-2xl p-[8px]">
+        text-white bg-black rounded-2xl p-[8px] text-[10px
+        ]">
           The Avengers
         </p>
         <img src="Images/Avengers.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
@@ -125,9 +128,118 @@
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2012
         </p>
-        <div class="pointer-events-none absolute top-1/2 right-full w-24 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
       </article>
-      </div>
-  </main>
-  </body>
+    </div>
+  </div>
+</div>
+
+<div class="w-full h-2 bg-black"></div>
+<!--Phase 2-->
+
+<div class="w-full bg-[linear-gradient(45deg,#8B5CF6,#22C55E,#A17449,#ED1D24,#111827)] pb-[100px]">
+    <div class="flex justify-center">
+      <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[10px] mt-[50px]"> Phase 2</p>
+    </div>
+
+  <div class="flex flex-row justify-start ml-[40px]">
+    <!-- Iron Man 3 -->
+     <div class=" flex justify-start mt-[50px] ml-[90px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#E6BE60] via-[#9E1C21] to-[#E6BE60]  grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px]">
+          Iron Man 3
+        </p>
+        <img src="Images/Iron_Man_3.jpg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2013
+        </p>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+      </article>
+    </div>
+    <!-- Thor the Dark World -->
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl  bg-gradient-to-br from-[#6B6970] via-[#444347] to-[#ED1D24] grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px] text-[10px]">
+          Thor the Dark World
+        </p>
+        <img src="Images/Thor2.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75">
+
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2013
+        </p>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+      </article>
+    </div>
+    <!-- Captain America: The Winter Solider-->
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#1E3A8A] to-[#8B1E2F] grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px] text-[9.5px]">
+          Captain America: The Winter Soldier
+        </p>
+        <img src="Images/CaptAmeWinSold.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
+
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2014
+        </p>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+      </article>
+    </div>
+    <!-- Guardians of the Galaxy -->
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#5B21B6] via-[#16A34A] to-[#6B4423] grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+          text-white bg-black rounded-2xl p-[10px] text-[10px]">
+          Guardians of the Galaxy
+        </p>
+        <img src="Images/guardians.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
+
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2014
+        </p>
+        <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+      </article>
+    </div>
+    <!-- Avengers: Age of Ultron-->
+    <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] rounded-3xl bg-gradient-to-br from-[#5E5E5E] via-[#8B1E2F] to-[#CC5200] grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[5px] text-[10px]">
+          Avengers: Age of Ultron
+        </p>
+        <img src="Images/AvengersAgeofUltron.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
+
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2015
+        </p>
+         <div class="pointer-events-none absolute top-1/2 left-full w-16 h-[2px] -translate-y-1/2 bg-black hidden lg:block"></div>
+      </article>
+    </div>
+      <!-- Ant Man -->
+     <div class=" flex justify-start mt-[50px] ml-[55px]">
+      <article class="relative w-[150px] max-w-[60vw] aspect-[3/1] p-[15px] bg-gradient-to-br from-[#D30026] via-[#C5CFD1] to-[#5E6674] rounded-3xl 
+      grid place-items-center border-2 border-black shadow-lg
+      transition duration-300 ease-out hover:-translate-y-1">
+        <p class="mx-auto inline-block text-center [width: fit-content] max-w-[6rem] leading-tight font-[var(--font-display)] uppercase 
+        text-white bg-black rounded-2xl p-[8px] text-[10px
+        ]">
+          Ant Man
+        </p>
+        <img src="Images/ant-man.jpeg" class="rounded-2xl mt-[10px] border-2 border-black transition duration-200 ease-out hover:opacity-75 ">
+
+        <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
+          2015
+        </p>
+      </article>
+    </div>
+  </div>
+</div>
+</body>
 </html>
