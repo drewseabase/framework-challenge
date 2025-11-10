@@ -15,14 +15,16 @@
     <div
       class="relative w-full max-w-[650px] rounded-2xl bg-[#ED1D24] mt-10 sm:mt-16
              grid place-items-center border-4 border-black shadow-lg transition duration-300 ease-out hover:-translate-y-1
-             hover:shadow-2xl
-             after:content-[''] after:absolute after:inset-x-6 after:-bottom-6 after:h-8
-             after:rounded-full after:bg-black/25 after:blur-md after:opacity-60">
+             hover:shadow-2xl px-3 sm:px-6
+             md:aspect-[3/1] min-h-[120px]">
 
+      <!-- Scales down sooner; never overflows -->
       <h1 class="font-[var(--font-display)] uppercase tracking-wide text-white leading-none
-                 text-[clamp(3rem,14vw,9.375rem)]">
+                 text-[clamp(2.2rem,14vw,9.375rem)]">
         MARVEL
       </h1>
+
+      <!-- Subtitle also scales, with gentle tuck-up on larger screens -->
       <p class="font-[var(--font-display)] uppercase tracking-wide text-white
                 text-[clamp(0.9rem,4.5vw,2rem)] -mt-1 sm:-mt-2 md:-mt-3">
         Cinematic Universe
@@ -30,6 +32,7 @@
     </div>
   </div>
 </header>
+
 <div class="flex flex-wrap">
 <div class="w-full h-2 bg-black"></div>
   <!--Phase 1-->
@@ -52,7 +55,7 @@
         text-white bg-black rounded-2xl p-[5px]">
           Iron Man 
         </p>
-        <img src="Images/Iron_Man_(2008_film)_poster.jpg" class="rounded-2xl mt-[10px] max-h-[250px] border-2 border-black transition duration-200 ease-out hover:opacity-65 ">
+        <img src="Images/Iron_Man_(2008_film)_poster.jpg" class="rounded-2xl mt-[10px] max-h-[250px] border-2 border-black transition duration-200 ease-out hover:opacity-65 " alt="Iron Man 2008">
         <p class="font-[var(--font-display)] uppercase tracking-wide text-black text-[1.5rem] mt-[5px]">
           2008
         </p>
